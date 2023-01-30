@@ -25,9 +25,15 @@ country:
   name: Australia
   adjective: Australian
 create_goals:
-  previous_next_links: false
-  goal_content_heading: ''
-  goals: []
+  goal_content_heading: About
+  previous_next_links: true
+  goals:
+    - goal: 3
+      content: custom.my_translation_key_for_goal_3
+    - goal: 2
+      content: My content for goal 2 with a [link](https://example.com)
+    - goal: 1
+      content: My content for goal 1
 create_indicators:
   previous_next_links: false
 create_pages:
